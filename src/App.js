@@ -8,6 +8,7 @@ import About from './components/pages/About'
 
 import './App.css';
 import axios from 'axios';
+import Form from './components/layout/Form';
 
 
 class App extends Component {
@@ -69,6 +70,7 @@ addTodo = (title) => {
           )} />
           <Route path="/about" component={About} />
           </div>    
+          <Form />
         </div>
       </Router>
     );
